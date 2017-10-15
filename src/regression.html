@@ -1,0 +1,55 @@
+<script type="text/x-red" data-template-name="regression">
+    <div class="form-row">
+        <label for="node-input-appkey"><i class="fa fa-key"></i> Application Key</label>
+        <input type="text" id="node-input-appkey">
+    </div>
+    <div class="form-row">
+        <label for="node-input-cluster"><i class="fa fa-server"></i> Cluster</label>
+        <select type="text" id="node-input-cluster">
+            <option value="mt1">us-east-1 (US - default)</option>
+            <option value="eu">eu-west-1 (Europe)</option>
+            <option value="ap1">ap-southeast-1 (Singapore)</option>
+            <option value="ap2">ap-south-1 (Mumbai)</option>
+        </select>
+    </div>
+    <div class="form-row">
+        <label for="node-input-channel"><i class="fa fa-random"></i> Channel</label>
+        <input type="text" id="node-input-channel" placeholder="channel">
+    </div>
+    <div class="form-row">
+        <label for="node-input-event"><i class="fa fa-tasks"></i> Event</label>
+        <input type="text" id="node-input-event" placeholder="event">
+    </div>
+    <div class="form-row">
+        <label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+</script>
+
+<script type="text/x-red" data-help-name="regression">
+
+</script>
+
+<script type="text/javascript">
+    RED.nodes.registerType('regression', {
+        category: 'function',
+        color: "#D8BFD8",
+        defaults: {
+            appkey: { value: "", required: true },
+            cluster: { value: "mt1" },
+            channel: { value: "" },
+            event: { value: "" },
+            name: { value: "" }
+        },
+        inputs: 1,
+        outputs: 1,
+        icon: "regression.png",
+        label: function () {
+            return this.name || "regression";
+        },
+        labelStyle: function () {
+            return this.name ? "node_label_italic" : "";
+        },
+    });
+
+</script>
