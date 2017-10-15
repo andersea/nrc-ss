@@ -1,6 +1,6 @@
 {
   "name": "node-red-simple-statistics",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "node-red-simple-statistics",
   "license": "MIT",
   "repository": "https://github.com/andersea/nrc-ss",
