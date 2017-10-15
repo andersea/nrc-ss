@@ -3,14 +3,15 @@
   "version": "0.0.0",
   "description": "node-red-simple-statistics",
   "license": "MIT",
-  "repository": "",
+  "repository": "https://github.com/andersea/nrc-ss",
   "author": {
-    "name": "",
-    "email": "",
-    "url": ""
+    "name": "Anders Ellenshøj Andersen",
+    "email": "andersa@atlab.dk",
+    "url": "https://github.com/andersea"
   },
   "keywords": [
-    ""
+    "simple-statistics",
+    "typescript"
   ],
   "files": [
     "lib"
