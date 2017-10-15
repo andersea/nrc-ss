@@ -1,7 +1,7 @@
 {
-  "name": "node-red-simple-statistics",
+  "name": "aea-nrc-ss",
   "version": "0.0.1",
-  "description": "node-red-simple-statistics",
+  "description": "",
   "license": "MIT",
   "repository": "https://github.com/andersea/nrc-ss",
   "author": {
