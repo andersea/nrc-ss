@@ -8,6 +8,7 @@ export = (RED: NodeRED.Red) => {
         this.on('input', (msg: any) => {
             if (Array.isArray(msg.payload)) {
                 msg.payload = statistics.linearRegression(msg.payload);
+                this.send(msg);
             } else {
                 this.error('Invalid payload', msg);
             }
