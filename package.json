@@ -32,23 +32,23 @@
     "watch:test": "jest --watch"
   },
   "dependencies": {
-    "simple-statistics": "^6.0.0"
+    "simple-statistics": "^7.0.0"
   },
   "devDependencies": {
     "@types/jest": "^20.0.5",
-    "@types/node": "^8.10.15",
-    "@types/node-red": "^0.17.2",
-    "coveralls": "^2.13.3",
+    "@types/node": "^8.10.49",
+    "@types/node-red": "^0.17.3",
+    "coveralls": "^3.0.3",
     "cpy-cli": "^1.0.1",
-    "jest": "^20.0.4",
+    "jest": "^24.8.0",
     "jest-environment-node-debug": "^2.0.0",
-    "prettier": "^1.12.1",
-    "rimraf": "^2.0.0",
-    "ts-jest": "^20.0.7",
+    "prettier": "^1.17.1",
+    "rimraf": "^2.6.3",
+    "ts-jest": "^24.0.2",
     "ts-node": "^3.2.0",
-    "tslint": "^5.10.0",
-    "tslint-config-prettier": "^1.12.0",
-    "typescript": "^2.8.3"
+    "tslint": "^5.17.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^2.9.2"
   },
   "engines": {
     "node": ">=6.0.0"
